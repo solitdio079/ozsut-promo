@@ -41,7 +41,7 @@ export const promoMenus: PromoMenu[] = [
         items: [
           "Beyaz peynir",
           "Kaşar peyniri",
-          "Tulum peyniri",
+          "Çıtır peynir topu",
           "Çeçil peyniri",
         ],
       },
