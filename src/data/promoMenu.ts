@@ -19,6 +19,7 @@ export type PromoMenu = {
   }>;
   gallery?: Array<{
     title: string;
+    price?: string;
     image: string;
     imageAlt: string;
   }>;
@@ -83,7 +84,8 @@ export const promoMenus: PromoMenu[] = [
     campaignLabel: "Kampanya 2",
     title: "Pizza veya hamburger alana içecek hediye",
     period: "Kampanya 2",
-    validity: "Pizza veya hamburgerin yanında Coca-Cola ya da Fanta hediye.",
+    validity:
+      "Pizza veya hamburgerin yanında 200 ml şişe Coca-Cola ya da Fanta hediye.",
     image: "/promo/pizza-hamburger-icecek.jpeg",
     imageAlt: "Pizza, hamburger, Coca-Cola ve Fanta kampanya görseli",
     imageFit: "contain",
@@ -99,7 +101,7 @@ export const promoMenus: PromoMenu[] = [
       },
       {
         title: "Hediye",
-        items: ["1 adet Coca-Cola", "veya 1 adet Fanta"],
+        items: ["1 adet 200 ml şişe Coca-Cola", "veya 1 adet 200 ml şişe Fanta"],
       },
       {
         title: "Geçerlilik",
@@ -109,18 +111,43 @@ export const promoMenus: PromoMenu[] = [
     gallery: [
       {
         title: "Anadoludan pizza",
+        price: "650 TL",
         image: "/promo/pizza-anadoludan.jpeg",
         imageAlt: "Anadoludan pizza",
       },
       {
         title: "Ay pizza",
+        price: "690 TL",
         image: "/promo/pizza-ay.jpeg",
         imageAlt: "Ay pizza",
       },
       {
         title: "Bolonez soslu pizza",
+        price: "690 TL",
         image: "/promo/pizza-bolonez-soslu.jpeg",
         imageAlt: "Bolonez soslu pizza",
+      },
+      {
+        title: "Margarita pizza",
+        price: "605 TL",
+        image: "/promo/pizza-margarita.jpeg",
+        imageAlt: "Margarita pizza",
+      },
+      {
+        title: "BBQ tavuklu pizza",
+        price: "635 TL",
+        image: "/promo/pizza-bbq-tavuklu.jpeg",
+        imageAlt: "BBQ tavuklu pizza",
+      },
+      {
+        title: "Cheeseburger",
+        image: "/promo/cheeseburger.jpeg",
+        imageAlt: "Cheeseburger",
+      },
+      {
+        title: "Hamburger",
+        image: "/promo/hamburger.jpeg",
+        imageAlt: "Hamburger",
       },
     ],
   },

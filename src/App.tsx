@@ -133,7 +133,7 @@ export default function App() {
           {promoMenu.gallery ? (
             <div className="mt-8 border-t border-[#7a4532]/20 pt-6">
               <h3 className="font-sans text-xl font-extrabold leading-tight text-[#5a1636] sm:text-2xl">
-                Pizza çeşitleri
+                Pizza ve hamburger çeşitleri
               </h3>
               <div className="-mx-4 mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-3 [scrollbar-width:none] sm:-mx-7 sm:gap-5 sm:px-7 [&::-webkit-scrollbar]:hidden">
                 {promoMenu.gallery.map((item) => (
@@ -151,6 +151,11 @@ export default function App() {
                       <p className="font-sans text-base font-extrabold text-[#30201f]">
                         {item.title}
                       </p>
+                      {item.price ? (
+                        <p className="mt-1 font-sans text-sm font-black text-[#5a1636]">
+                          {item.price}
+                        </p>
+                      ) : null}
                     </div>
                   </article>
                 ))}
