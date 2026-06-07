@@ -7,6 +7,7 @@ export default function App() {
   const promoMenu =
     promoMenus.find((menu) => menu.slug === slug) ?? promoMenus[0];
   const isLongOffer = promoMenu.price.length > 14;
+  const sectionHeading = `${promoMenu.sectionKicker} ${promoMenu.sectionTitle}`;
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -94,14 +95,11 @@ export default function App() {
         >
           <div className="mb-5 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="font-sans text-sm font-extrabold uppercase text-[#7a4532]">
-                {promoMenu.sectionKicker}
-              </p>
               <h2
                 id="contents-title"
-                className="font-serif text-4xl font-black leading-none text-[#1f4e55] sm:text-5xl"
+                className="font-sans text-2xl font-extrabold leading-tight text-[#1f4e55] sm:text-3xl"
               >
-                {promoMenu.sectionTitle}
+                {sectionHeading}
               </h2>
             </div>
             <p className="font-sans text-sm font-bold text-[#7a4532]">
@@ -131,6 +129,34 @@ export default function App() {
               </article>
             ))}
           </div>
+
+          {promoMenu.gallery ? (
+            <div className="mt-8 border-t border-[#7a4532]/20 pt-6">
+              <h3 className="font-sans text-xl font-extrabold leading-tight text-[#5a1636] sm:text-2xl">
+                Pizza çeşitleri
+              </h3>
+              <div className="-mx-4 mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-3 [scrollbar-width:none] sm:-mx-7 sm:gap-5 sm:px-7 [&::-webkit-scrollbar]:hidden">
+                {promoMenu.gallery.map((item) => (
+                  <article
+                    className="min-w-[78%] snap-start overflow-hidden rounded-lg border border-[#5a1636]/15 bg-white shadow-[0_12px_28px_rgba(73,40,30,0.12)] sm:min-w-[44%] lg:min-w-[31%]"
+                    key={item.title}
+                  >
+                    <img
+                      className="aspect-[4/3] w-full bg-white object-contain"
+                      src={item.image}
+                      alt={item.imageAlt}
+                      loading="lazy"
+                    />
+                    <div className="border-t border-[#5a1636]/10 px-4 py-3">
+                      <p className="font-sans text-base font-extrabold text-[#30201f]">
+                        {item.title}
+                      </p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </section>
 
         <footer className="grid gap-3 px-4 py-8 text-center sm:px-7">

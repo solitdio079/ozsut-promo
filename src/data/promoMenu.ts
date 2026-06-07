@@ -17,6 +17,11 @@ export type PromoMenu = {
     title: string;
     items: string[];
   }>;
+  gallery?: Array<{
+    title: string;
+    image: string;
+    imageAlt: string;
+  }>;
 };
 
 export const promoMenus: PromoMenu[] = [
@@ -33,7 +38,7 @@ export const promoMenus: PromoMenu[] = [
     price: "1000 TL",
     note: "Serpme kahvaltı 2 kişiliktir. İlave kişi ücretlidir.",
     sectionKicker: "Kahvaltı",
-    sectionTitle: "İçeriği",
+    sectionTitle: "içeriği",
     detailLabel: "2 kişilik servis",
     sections: [
       {
@@ -85,7 +90,7 @@ export const promoMenus: PromoMenu[] = [
     price: "Kola veya Fanta hediye!",
     note: "Tüm pizza ve hamburger çeşitlerinde geçerlidir.",
     sectionKicker: "Kampanya",
-    sectionTitle: "Detayı",
+    sectionTitle: "detayı",
     detailLabel: "İçecek hediyesi",
     sections: [
       {
@@ -99,6 +104,23 @@ export const promoMenus: PromoMenu[] = [
       {
         title: "Geçerlilik",
         items: ["Tüm pizza çeşitleri", "Tüm hamburger çeşitleri"],
+      },
+    ],
+    gallery: [
+      {
+        title: "Anadoludan pizza",
+        image: "/promo/pizza-anadoludan.jpeg",
+        imageAlt: "Anadoludan pizza",
+      },
+      {
+        title: "Ay pizza",
+        image: "/promo/pizza-ay.jpeg",
+        imageAlt: "Ay pizza",
+      },
+      {
+        title: "Bolonez soslu pizza",
+        image: "/promo/pizza-bolonez-soslu.jpeg",
+        imageAlt: "Bolonez soslu pizza",
       },
     ],
   },
@@ -115,7 +137,7 @@ export const promoMenus: PromoMenu[] = [
     price: "300 TL",
     note: "Dilim pasta alana yanında çay veya kahve hediye.",
     sectionKicker: "Tatlı",
-    sectionTitle: "Seçenekleri",
+    sectionTitle: "seçenekleri",
     detailLabel: "Çay veya kahve hediyesi",
     sections: [
       {
