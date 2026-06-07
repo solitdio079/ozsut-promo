@@ -141,11 +141,13 @@ export const promoMenus: PromoMenu[] = [
       },
       {
         title: "Cheeseburger",
+        price: "670 TL",
         image: "/promo/cheeseburger.jpeg",
         imageAlt: "Cheeseburger",
       },
       {
         title: "Hamburger",
+        price: "635 TL",
         image: "/promo/hamburger.jpeg",
         imageAlt: "Hamburger",
       },
