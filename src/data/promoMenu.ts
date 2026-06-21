@@ -111,13 +111,13 @@ export const promoMenus: PromoMenu[] = [
     gallery: [
       {
         title: "Anadoludan pizza",
-        price: "650 TL",
+        price: "600 TL",
         image: "/promo/pizza-anadoludan.jpeg",
         imageAlt: "Anadoludan pizza",
       },
       {
         title: "Ay pizza",
-        price: "690 TL",
+        price: "590 TL",
         image: "/promo/pizza-ay.jpeg",
         imageAlt: "Ay pizza",
       },
@@ -129,25 +129,25 @@ export const promoMenus: PromoMenu[] = [
       },
       {
         title: "Margarita pizza",
-        price: "605 TL",
+        price: "500 TL",
         image: "/promo/pizza-margarita.jpeg",
         imageAlt: "Margarita pizza",
       },
       {
         title: "BBQ tavuklu pizza",
-        price: "635 TL",
+        price: "590 TL",
         image: "/promo/pizza-bbq-tavuklu.jpeg",
         imageAlt: "BBQ tavuklu pizza",
       },
       {
         title: "Cheeseburger",
-        price: "670 TL",
+        price: "600 TL",
         image: "/promo/cheeseburger.jpeg",
         imageAlt: "Cheeseburger",
       },
       {
         title: "Hamburger",
-        price: "635 TL",
+        price: "590 TL",
         image: "/promo/hamburger.jpeg",
         imageAlt: "Hamburger",
       },
