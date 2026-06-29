@@ -135,7 +135,7 @@ export const promoMenus: PromoMenu[] = [
       {
         title: "Dört peynirli pizza",
         price: "750 TL",
-        image: "/promo/pizza-hamburger-icecek.jpeg",
+        image: "/promo/pizza-dort-peynirli.jpeg",
         imageAlt: "Dört peynirli pizza",
       },
       {
