@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router";
 import { promoMenus } from "./data/promoMenu";
 
+const whatsappUrl = "https://wa.me/905316188679";
+
 export default function App() {
   const { slug } = useParams();
   const promoMenu =
@@ -180,6 +182,24 @@ export default function App() {
           </p>
         </footer>
       </section>
+
+      <a
+        className="fixed bottom-4 right-4 z-20 flex items-center gap-2 rounded-full bg-[#25d366] px-4 py-3 font-sans text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(37,211,102,0.35)] transition hover:-translate-y-0.5 hover:bg-[#1fbd5b] focus:outline-none focus:ring-4 focus:ring-[#25d366]/35 sm:bottom-6 sm:right-6 sm:px-5 sm:text-base"
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp ile iletişime geç"
+      >
+        <svg
+          aria-hidden="true"
+          className="h-6 w-6 shrink-0"
+          viewBox="0 0 32 32"
+          fill="currentColor"
+        >
+          <path d="M16.04 3.2A12.72 12.72 0 0 0 5.16 22.5L3.5 28.8l6.45-1.62A12.7 12.7 0 1 0 16.04 3.2Zm0 23.08a10.5 10.5 0 0 1-5.35-1.46l-.38-.22-3.82.96 1-3.72-.25-.39a10.49 10.49 0 1 1 8.8 4.83Zm5.75-7.85c-.31-.16-1.85-.91-2.13-1.02-.29-.1-.5-.16-.7.16-.21.31-.81 1.01-.99 1.22-.18.21-.36.24-.67.08-.31-.16-1.31-.48-2.5-1.54-.92-.82-1.55-1.84-1.73-2.15-.18-.31-.02-.48.14-.64.14-.14.31-.36.47-.54.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.54-.08-.16-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.21 0-.54.08-.83.39-.29.31-1.09 1.07-1.09 2.61 0 1.54 1.12 3.03 1.28 3.24.16.21 2.21 3.37 5.35 4.72.75.32 1.33.51 1.78.65.75.24 1.43.21 1.97.13.6-.09 1.85-.76 2.11-1.49.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.37Z" />
+        </svg>
+        <span>WhatsApp</span>
+      </a>
     </main>
   );
 }
