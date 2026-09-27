@@ -28,8 +28,9 @@ In Coolify:
 3. Point your domain to the Coolify app.
 
 The nginx config includes React Router fallback, so QR links like
-`/menu/serpme-kahvalti`, `/menu/pizza-hamburger-icecek`, and
-`/menu/tatli-bir-mola` work when opened directly.
+`/menu/pizza-hamburger-icecek` and `/menu/tatli-bir-mola` work when
+opened directly. The discontinued breakfast promotion is no longer in the menu;
+old `/menu/serpme-kahvalti` QR links redirect to the pizza/hamburger offer.
 
 ## Other Deploys
 

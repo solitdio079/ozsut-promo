@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="heroClip-pizza-hamburger-icecek">
+      <rect x="44" y="128" width="992" height="430" rx="38"/>
+    </clipPath>
+    <linearGradient id="fade-pizza-hamburger-icecek" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.56"/>
+    </linearGradient>
+    <pattern id="pinstripe-pizza-hamburger-icecek" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#f7f1e7"/>
+      <path d="M0 0H24" stroke="#5a1636" stroke-opacity="0.08" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#pinstripe-pizza-hamburger-icecek)"/>
+  <rect x="28" y="28" width="1024" height="1024" rx="42" fill="#fff9ef" stroke="#5a1636" stroke-opacity="0.24" stroke-width="3"/>
+
+  <text x="68" y="94" font-family="Arial" font-size="70" font-weight="900" fill="#1f4e55">ÖZSÜT</text>
+  
+    <rect x="774" y="50" width="230" height="46" rx="23" fill="#5a1636" stroke="#5a1636" stroke-width="2"/>
+    <text x="889" y="80" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#fff9ef">Kampanya 2</text>
+  
+
+  <image href="/Users/djokokeita/repos/ozsut-promo/public/promo/pizza-hamburger-icecek.jpeg" x="44" y="128" width="992" height="430" preserveAspectRatio="xMidYMid slice" clip-path="url(#heroClip-pizza-hamburger-icecek)"/>
+  <rect x="44" y="128" width="992" height="430" rx="38" fill="url(#fade-pizza-hamburger-icecek)"/>
+
+  <text x="78" y="460"  text-anchor="start" font-family="Arial" font-size="58" font-weight="950" fill="#ffffff">Pizza veya hamburger</text>
+<text x="78" y="522.64"  text-anchor="start" font-family="Arial" font-size="58" font-weight="950" fill="#ffffff">alana içecek hediye</text>
+  <text x="82" y="528" font-family="Arial" font-size="29" font-weight="900" fill="#fff9ef">200 ml şişe Coca-Cola ya da Fanta hediye</text>
+
+  <rect x="66" y="590" width="948" height="360" rx="32" fill="#ffffff" stroke="#5a1636" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="720" y="604" width="264" height="96" rx="28" fill="#5a1636"/>
+  <text x="852" y="645" text-anchor="middle" font-family="Arial" font-size="32" font-weight="900" fill="#fff9ef">İçecek hediye!</text>
+  <text x="852" y="676" text-anchor="middle" font-family="Arial" font-size="21" font-weight="800" fill="#fff9ef">Pizza &amp; burger</text>
+
+  <text x="86" y="618" font-family="Arial" font-size="30" font-weight="900" fill="#1f4e55">Menü seçenekleri</text>
+        <text x="86" y="647" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Margherita pizza</text>
+        <text x="444" y="647" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">665 TL</text>
+      
+
+        <text x="86" y="681" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">BBQ tavuklu pizza</text>
+        <text x="444" y="681" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">700 TL</text>
+      
+
+        <text x="86" y="715" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Sebzeli pizza</text>
+        <text x="444" y="715" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">665 TL</text>
+      
+
+        <text x="86" y="749" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Ay pizza</text>
+        <text x="444" y="749" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">760 TL</text>
+      
+
+        <text x="86" y="783" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Dört peynirli pizza</text>
+        <text x="444" y="783" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">750 TL</text>
+      
+
+        <text x="538" y="647" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Hamburger</text>
+        <text x="980" y="647" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">700 TL</text>
+      
+
+        <text x="538" y="681" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Cızır burger</text>
+        <text x="980" y="681" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">635 TL</text>
+      
+
+        <text x="538" y="715" font-family="Arial" font-size="24" font-weight="800" fill="#30201f">Tavuk burger</text>
+        <text x="980" y="715" text-anchor="end" font-family="Arial" font-size="24" font-weight="900" fill="#5a1636">575 TL</text>
+      
+        <g transform="translate(86 865)">
+          <circle cx="0" cy="-8" r="6" fill="#d8a642"/>
+          <text x="18" y="0" font-family="Arial" font-size="24" font-weight="700" fill="#30201f">Tüm pizza çeşitlerinde geçerlidir</text>
+        </g>
+      
+
+        <g transform="translate(86 899)">
+          <circle cx="0" cy="-8" r="6" fill="#d8a642"/>
+          <text x="18" y="0" font-family="Arial" font-size="24" font-weight="700" fill="#30201f">Tüm hamburger çeşitlerinde geçerlidir</text>
+        </g>
+      
+
+        <g transform="translate(86 933)">
+          <circle cx="0" cy="-8" r="6" fill="#d8a642"/>
+          <text x="18" y="0" font-family="Arial" font-size="24" font-weight="700" fill="#30201f">200 ml şişe içecek hediyesi</text>
+        </g>
+      
+
+  <text x="76" y="998" font-family="Arial" font-size="20" font-weight="800" fill="#7a4532">Instagram reklam bağlantısı ile web menümüzü ziyaret edin.</text>
+  
+    <g transform="translate(690 992)">
+      <rect x="0" y="-44" width="326" height="62" rx="31" fill="#25d366"/>
+      <path transform="translate(21 -31) scale(1.28)" fill="#ffffff" d="M16.04 3.2A12.72 12.72 0 0 0 5.16 22.5L3.5 28.8l6.45-1.62A12.7 12.7 0 1 0 16.04 3.2Zm0 23.08a10.5 10.5 0 0 1-5.35-1.46l-.38-.22-3.82.96 1-3.72-.25-.39a10.49 10.49 0 1 1 8.8 4.83Zm5.75-7.85c-.31-.16-1.85-.91-2.13-1.02-.29-.1-.5-.16-.7.16-.21.31-.81 1.01-.99 1.22-.18.21-.36.24-.67.08-.31-.16-1.31-.48-2.5-1.54-.92-.82-1.55-1.84-1.73-2.15-.18-.31-.02-.48.14-.64.14-.14.31-.36.47-.54.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.54-.08-.16-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.21 0-.54.08-.83.39-.29.31-1.09 1.07-1.09 2.61 0 1.54 1.12 3.03 1.28 3.24.16.21 2.21 3.37 5.35 4.72.75.32 1.33.51 1.78.65.75.24 1.43.21 1.97.13.6-.09 1.85-.76 2.11-1.49.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.37Z"/>
+      <text x="72" y="-7" font-family="Arial" font-size="24" font-weight="900" fill="#ffffff">+90 531 618 86 79</text>
+    </g>
+  
+</svg>

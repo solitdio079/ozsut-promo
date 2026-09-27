@@ -27,57 +27,6 @@ export type PromoMenu = {
 
 export const promoMenus: PromoMenu[] = [
   {
-    slug: "serpme-kahvalti",
-    navLabel: "Serpme Kahvaltı",
-    campaignLabel: "Hafta içi fırsatı",
-    title: "Hafta içine özel serpme kahvaltı",
-    period: "Pazartesi - Cuma",
-    validity: "Hafta içi günlerde geçerlidir.",
-    image: "/promo/serpme-kahvalti.jpeg",
-    imageAlt: "Serpme kahvaltı sofrası",
-    imageFit: "cover",
-    price: "1000 TL",
-    note: "Serpme kahvaltı 2 kişiliktir. İlave kişi ücretlidir.",
-    sectionKicker: "Kahvaltı",
-    sectionTitle: "içeriği",
-    detailLabel: "2 kişilik servis",
-    sections: [
-      {
-        title: "Peynir tabağı",
-        items: [
-          "Beyaz peynir",
-          "Kaşar peyniri",
-          "Çıtır peynir topu",
-        ],
-      },
-      {
-        title: "Sofra lezzetleri",
-        items: [
-          "Söğüş tabağı",
-          "Zeytin tabağı (siyah ve yeşil)",
-          "Yörük ezmesi",
-          "2 çeşit reçel",
-        ],
-      },
-      {
-        title: "Klasikler",
-        items: ["Bal", "Kaymak", "Tereyağı", "Yoğurtlu biber kızartması"],
-      },
-      {
-        title: "Sıcak tabağı",
-        items: ["Gözleme", "Pişi", "Sigara böreği"],
-      },
-      {
-        title: "Sıcak servis",
-        items: ["Sucuklu yumurta", "Patates kızartması"],
-      },
-      {
-        title: "Tatlı kapanış",
-        items: ["Meyve tabağı"],
-      },
-    ],
-  },
-  {
     slug: "pizza-hamburger-icecek",
     navLabel: "Pizza & Hamburger",
     campaignLabel: "Kampanya 2",
