@@ -117,7 +117,7 @@ export const promoMenus: PromoMenu[] = [
     image: "/promo/tatli-bir-mola.jpeg",
     imageAlt: "Tatlı bir mola dilim pasta, çay ve kahve kampanya görseli",
     imageFit: "contain",
-    price: "300 TL",
+    price: "350 TL",
     note: "Dilim pasta alana yanında çay veya kahve hediye.",
     sectionKicker: "Tatlı",
     sectionTitle: "seçenekleri",
